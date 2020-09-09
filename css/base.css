@@ -5,6 +5,7 @@ html, body {
     scroll-behavior: smooth;
     background-color: transparent;
     scroll-snap-type: y proximity;
+    position: absolute;
 }
 
 embed{
@@ -61,6 +62,12 @@ embed{
     box-shadow: 13px 0px 16px -13px rgba(0,0,0,0.75);
 }
 
+.dropShadow{
+    -webkit-box-shadow: 0px 10px 29px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 29px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 29px -3px rgba(0,0,0,0.75);
+}
+
 .flexRow{
     display: flex;
     flex-wrap: wrap;
@@ -74,6 +81,7 @@ embed{
 }
 
 .flexColumn{
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column  ;
@@ -137,6 +145,49 @@ embed{
     background-color: yellow;
     scroll-snap-type: initial;
 }
+
+.parralax{
+    height: 100%;
+    scroll-snap-type: initial;
+    /* Set a specific height */
+    min-height: 50px; 
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+.full-t1 {
+    background-image: url("../img/projects/t1.jpg");
+}
+
+.full-t2 {
+
+    background-image: url("../img/projects/t2.jpg");
+
+}
+
+.full-t3 {
+
+    background-image: url("../img/projects/t3.jpg");
+
+}
+
+.full-t4 {
+    background-image: url("../img/projects/t4.jpg");
+}
+
+.full-t5 {
+
+    background-image: url("../img/projects/t5.jpg");
+
+}
+
 
 .shadowBlue{
     -webkit-box-shadow: 0px 10px 0px -4px rgba(69,143,255,1);
@@ -309,7 +360,8 @@ embed{
 }
 
 .projects{
-    width: 85%;
+
+    width: 80%;
     background-color: thistle;
 }
 
@@ -424,9 +476,36 @@ embed{
 }
 
 .sidePanel{
-    background-color: turquoise;
-    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+    z-index: 999;
+
     
+
+    background-color: #222222ad;
+    width: 10%;
+    height: 50%;
+    margin: 15% 0 0 0;
+    position: fixed;
+}
+
+.sidePanel ul{
+    text-align: center;
+    padding: 0;
+}
+
+.sidePanel li{
+    list-style-type: none;
+    margin: 0 0 25% 0;
+}
+
+.sidePanel li a{
+    color: white;
+    text-decoration: none;
 }
 
 .threeQuater{
@@ -476,7 +555,6 @@ embed{
         width: 100%;
         /* The image used */
         background-image: url("../img/index/Parallax/Ruta-16.jpg");
-      
         /* Set a specific height */
         min-height: 50px; 
           
@@ -486,8 +564,8 @@ embed{
         background-repeat: no-repeat;
         background-size: cover;
         
-      overflow: hidden;
-      position: relative;
+        overflow: hidden;
+        position: relative;
     }
 
     .landImage{
