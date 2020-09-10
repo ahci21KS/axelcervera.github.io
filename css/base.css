@@ -295,8 +295,6 @@ embed{
 }
 
 
-
-
 .twoObjects article{
     display: flex;
     flex-wrap: wrap;
@@ -308,6 +306,14 @@ embed{
 }
 
 .twoObjectsVertical{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoObjectsHorizontal{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -365,6 +371,52 @@ embed{
     background-color: thistle;
 }
 
+
+
+.projectSection{
+    width: 100%;
+    height: 35%;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #FF7F11;
+}
+
+.projectSection figure img{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    overflow: auto;
+}
+
+.projectSection figure{
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+}
+
+
+
+.projects h2{
+    height: 25%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: burlywood;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.project-b1{
+
+
+    background-color: thistle;
+}
+
+
+
 .quater{
     height: 25%;
     margin: 0;
@@ -408,6 +460,39 @@ embed{
     width: 60%;
     height: 35%;
     margin: 1%;
+}
+
+.rowHalfAlt{
+    width: 50%;
+    height: 100%;
+    margin: 1%;
+}
+
+
+
+.tech h3{
+    width: 100%;
+    margin: 0;
+}
+
+.tech figure{
+    height: 80%;
+    width: 100%;
+}
+
+.tech figure img{
+    height: 100%;
+    width: 20%;
+    margin: 0;
+}
+
+
+.carrousel{
+    width: 100%;
+}
+
+.carrousel img{
+    width: 100%;
 }
 
 .rowHalf figure{    
