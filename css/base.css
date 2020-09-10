@@ -21,9 +21,34 @@ embed{
     background-color: #222222;
 }
 
+.backgroundAshO3Q{
+    background-color: #222222d2;
+}
+
+.backgroundBlack{
+    color: white;
+    background-color: #000000;
+}
+
+.backgroundBlue{
+    color: white;
+    background-color: #16389b;
+}
+
+.backgroundGreen{
+    color: black;
+    background-color: #4bfc88;    
+}
+
 .backgroundWhite{
     background-color: #FFFFFF;
 }
+
+.backgroundWhiteO3Q{
+    background-color: #ffffffe7;
+}
+
+
 
 .descriptionBig{
     height: 50%;   
@@ -368,7 +393,7 @@ embed{
 .projects{
 
     width: 80%;
-    background-color: thistle;
+    /*background-color: thistle;*/
 }
 
 
@@ -379,17 +404,17 @@ embed{
     margin: 0;
     padding: 0;
     
-    background-color: #FF7F11;
+    /*background-color: #FF7F11;*/
 }
 
-.projectSection figure img{
+.projectSectionAlt figure img{
     height: 100%;
     width: 100%;
     background-color: blue;
     overflow: auto;
 }
 
-.projectSection figure{
+.projectSectionAlt figure{
     height: 100%;
     width: 20%;
     background-color: blue;
@@ -402,10 +427,18 @@ embed{
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: burlywood;
+    /*background-color: burlywood;*/
     display: flex;
     align-items: flex-end;
     justify-content: center;
+
+
+}
+
+.projectsTitleT1{
+        
+    font-family: 'Amatic SC', cursive;
+    font-size: 500%;
 }
 
 
@@ -481,18 +514,23 @@ embed{
 }
 
 .tech figure img{
-    height: 100%;
-    width: 20%;
+    width: 18.5%;
     margin: 0;
 }
 
 
 .carrousel{
-    width: 100%;
+    margin:  0;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .carrousel img{
-    width: 100%;
+    margin:  0;
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
 }
 
 .rowHalf figure{    
