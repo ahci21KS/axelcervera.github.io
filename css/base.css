@@ -448,6 +448,29 @@ embed{
     font-size: 500%;
 }
 
+.projectsTitleT2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 500%;
+}
+
+.projectsTitleT3{
+    font-family: 'Red Rose', cursive;
+    font-size: 500%;
+}
+
+
+.projectsTitleT4{
+        
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 500%;
+}
+
+.projectsTitleT5{
+    font-family: 'Special Elite', cursive;
+    font-size: 450%;
+}
+
+
 
 .project-b1{
 
@@ -660,10 +683,90 @@ embed{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+@media screen and (min-width: 1980px){
+
+    .articleQuart{
+        width:15%
+    }
+
+    .article3QuartParallax{
+        width: 85%;
+    }
+
+    .descriptionBig{
+        font-size: 200%;
+    }
+
+    .descriptionText h2{
+        font-family: 'Playfair Display', serif;
+        border-bottom: .25em solid #FC814A;
+        font-size: 500%;
+    }
+    
+
+    .landImage{
+    
+        font-size: 150%;   
+    
+    }
+    
+    
+    .landImage img{
+        width: 25%;    
+    }
+    
+    .landImage figure{
+        width: 100%;
+        margin: 0 1% 1% 2.5%;
+    }
+    
+
+    .title p{
+        font-size: 200%;
+    }
+
+    .txtSmall{
+        font-size: 120%;
+        margin: 1% 0 0 2%;
+    }
+    
+    .txtTitle{
+        font-size: 180%;
+        margin: 0 0 0 2%;    
+    }
+    
+    .txtDesc{
+        font-size: 140%;
+        margin: 0 0 0 2%;    
+    }
+
+    .rowHalfAlt h3{
+        font-size: 250%;
+    }
+
+    .rowHalfAlt p{
+        font-size: 150%;
+    }
+
+    .sidePanel{
+        font-size: 150%;
+    }
+    .tech figure img{
+        width: 20%;
+    }
+    
+}
+
+@media screen and (max-width: 1366px){
+
+}
+
 @media screen and (max-width:700px){
 
     html, body {
-        scroll-behavior: unset  ;
+        scroll-behavior: unset;
         scroll-snap-type: none;
     }
     
@@ -674,6 +777,14 @@ embed{
 
     embed{
         display: none;
+    }
+
+    .twoObjects{
+        flex-direction: column;
+    }
+
+    .articleHalf{
+        width: 100%;
     }
 
     .articleQuart{
@@ -698,6 +809,10 @@ embed{
         position: relative;
     }
 
+    .byebye{
+        display: none !important;
+    }
+
     .landImage{
         min-height: 50px; 
         width: 100%;
@@ -714,6 +829,10 @@ embed{
     
     }
 
+    .leftAlign{
+        align-items: flex-start;
+    }
+
     .descriptionBig{
         height: 50%;   
         font-size: .8em;
@@ -723,7 +842,20 @@ embed{
     .descriptionBig li{
         margin-bottom: 2%;
     }
-    
+
+    .rowHalfAlt {
+        height: 45%;
+        width: 100%;
+    }
+
+    .tech figure {
+        height: 75%;
+        width: 100%;
+    }
+
+    .tech figure img {
+        width: 15%;
+    }
     
     .landImage img{
         width: 50%;    
@@ -731,6 +863,55 @@ embed{
     
     .landImage figure{
         margin: 15% 1% 1% 2.5%;
+    }
+
+    .projects{
+        width: 95%;
+    }
+
+    .projectSection{
+        height: 40%;
+    }
+
+    .projectSection p{
+        display: flex;
+        flex: wrap;
+        font-size:50%;
+        width: 50%;
+    }
+
+    
+    .projectSectionAlt figure {
+        height: 80%;
+        width: 50%;
+    }
+
+    .projects h2{
+        height: 15%;
+    }
+
+    .projectsTitleT1{
+        font-size: 300%;
+    }
+    
+    .projectsTitleT2{
+        font-size: 250%;
+    }
+
+    .projectsTitleT3{
+        font-size: 250%;
+    }
+
+    .projectsTitleT4{
+        font-size: 200%;
+    }
+
+    .projectsTitleT5{
+        font-size: 200%;
+    }
+
+    .quater{
+        font-size: 250%;
     }
     
     
@@ -781,7 +962,9 @@ embed{
     
     }
     
-    
+    .sidePanel{
+        display: none;
+    }
 
     .square{    
         width: 25%;
@@ -793,7 +976,8 @@ embed{
     .square figure{
         margin: 0;
         height: 100%;
-        width: 100%;
+        width: 100%;        
+        position: relative;
         
     }
     
@@ -814,8 +998,9 @@ embed{
     }
     
     .square figure img{
-        width: 100%; 
-        overflow: hidden;
+        overflow: hidden; 
+        
+        position: absolute;
     }
 
     .txtSmall{
@@ -832,3 +1017,4 @@ embed{
     }
     
 }
+
