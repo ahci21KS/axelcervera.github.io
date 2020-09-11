@@ -878,6 +878,7 @@ embed{
         flex: wrap;
         font-size:50%;
         width: 50%;
+        text-align: justify;
     }
 
     
