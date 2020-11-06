@@ -16,7 +16,6 @@ embed{
     scroll-snap-align: start;
 }
 
-
 .backgroundAsh{
     background-color: #222222;
 }
@@ -60,7 +59,7 @@ embed{
 .descriptionBig{
     height: 50%;   
     font-family: 'Roboto', sans-serif;
-    text-align: justify;
+    text-align: left;
 }
 
 .descriptionBig li{
@@ -78,8 +77,8 @@ embed{
 }
 
 .descriptionText div{
-    width: 90%;
-    margin-left: 5%;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .descriptionText h2{
@@ -366,7 +365,7 @@ embed{
 }
 
 .article3QuartParallax{
-    width: 77%;
+    width: 100%;
     /* The image used */
     background-image: url("../img/index/Parallax/Ruta-16.jpg");
   
@@ -494,6 +493,20 @@ embed{
     color:white;
 }
 
+.fifth{
+    height: 15%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;    
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5em;
+    color:white;
+}
+
 .rowFull figure{    
     display: flex;
     flex-wrap: wrap;
@@ -595,6 +608,10 @@ embed{
 
 }
 
+.twoFifths{    
+    height: 40%;
+}
+
 .rowQuart{
     width: 25%;
     height: 35%;
@@ -661,6 +678,10 @@ embed{
     text-decoration: none;
 }
 
+.oneFifth{
+    height: 10%;
+}
+
 .threeQuater{
     height: 75%;
 }
@@ -672,13 +693,13 @@ embed{
 }
 
 .txtTitle{
-    font-size: 100%;
+    font-size: 90%;
     font-weight: bold;
     margin: 0 0 0 2%;    
 }
 
 .txtDesc{
-    font-size: 80%;
+    font-size: 70%;
     margin: 0 0 0 2%;    
     font-family: 'Roboto', sans-serif;
 }
@@ -692,7 +713,7 @@ embed{
     }
 
     .article3QuartParallax{
-        width: 85%;
+        width: 100%;
     }
 
     .descriptionBig{
@@ -1005,15 +1026,15 @@ embed{
     }
 
     .txtSmall{
-        font-size: 70%;
+        font-size: 75%;
     }
     
     .txtTitle{
-        font-size: 100%; 
+        font-size: 110%; 
     }
     
     .txtDesc{
-        font-size: 80%;
+        font-size: 90%;
         display: none;
     }
     
