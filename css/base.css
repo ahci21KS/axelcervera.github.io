@@ -137,7 +137,7 @@ embed{
     flex-direction: row;
     align-items: flex-end;
     /* The image used */
-    background-image: url("../img/index/Backgrounds/Mixd-16.jpg");
+    background-image: url("../img/index/Backgrounds/Mixd-17.jpg");
   
     /* Set a specific height */
     min-height: 50px; 
@@ -152,7 +152,7 @@ embed{
 
 
     /* Font Properties */
-    color:white;    
+    color:black;    
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: .8em;
